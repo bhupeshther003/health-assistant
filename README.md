@@ -221,4 +221,6 @@ If you want next:
 
 ✅ Architecture diagram explanation
 
+<<<<<<< HEAD
 Just tell me 👍
+=======
