@@ -4,52 +4,221 @@
 
 Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+🩺 Health Intelligence Hub
+
+Health Intelligence Hub is an AI-powered health assistance website that helps users track health insights, manage medicine reminders, and receive intelligent recommendations based on their personal health profile and real-time context.
+
+🌐 Live Website:
+👉 https://health-intelligence-hub-2.onrender.com/
+
+📌 Overview
+
+Health Intelligence Hub is designed to act as a personal health companion.
+It combines user health data, AI intelligence, and real-time context to support better daily health decisions.
+
+The platform focuses on:
+
+Preventive healthcare
+
+Medicine adherence
+
+Smart health insights
+
+AI-based guidance
+
+🔄 User Flow (How the Website Works)
+1️⃣ User Authentication
+
+User signs up / logs in using email verification
+
+Authentication & user data handled via Supabase
+
+2️⃣ Mandatory Health Onboarding
+
+Before accessing the dashboard, the user answers mandatory health questions:
+
+Basic Information
+
+Name
+
+Gender
+
+Age
+
+Health & Lifestyle
+
+Existing diseases (if any)
+
+Weight
+
+Sleep timing
+
+Smoking / drinking habits
+
+Exercise frequency
+
+📌 This data is stored securely and used to personalize AI responses.
+
+3️⃣ Dashboard (System-Driven Data)
+
+The dashboard displays system-level health insights, including:
+
+Medicine reminder setup
+
+Health summaries
+
+User activity overview
+
+Dashboard data is designed to be synced with mobile device data in future app versions.
+
+4️⃣ AI Health Assistant
+
+The AI assistant can:
+
+Access past chat history
+
+Use stored health profile
+
+Use real-time context (like location)
+
+Suggest:
+
+Best food options based on health
+
+Nearby hospitals & medical stores
+
+Lifestyle improvements
+
+Health precautions
+
+🤖 AI answers are context-aware, not generic.
+
+5️⃣ Document Upload (Medical Reports)
+
+Users can upload medical reports (PDFs)
+
+AI can analyze uploaded reports to assist better decision-making
+
+6️⃣ Profile Management
+
+Users can update:
+
+Health conditions
+
+Weight & height changes
+
+Lifestyle habits
+
+Marital status
+
+Other personal health factors
+
+All updates improve AI accuracy over time.
+
+7️⃣ Settings
+
+Users can manage:
+
+Notification preferences
+
+Location access
+
+Dark / Light mode
+
+Logout / account deletion
+
+⭐ Key Features
+✅ AI-Powered Health Guidance
+
+Personalized recommendations using user history + real-time context.
+
+⏰ Medicine Reminder System
+
+Helps users stay consistent with medication schedules.
+
+🧠 Smart Health Profiling
+
+Health answers improve as user data evolves.
+
+📍 Location-Based Suggestions
+
+Nearby hospitals, food options, and medical help.
+
+🔐 Secure & Private
+
+All data handled securely using Supabase.
+
+🛠️ Technologies Used
+
+Vite
+
+React + TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+Supabase (Auth & Database)
+
+AI Integration
+
+🚀 Getting Started (Local Setup)
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+🌍 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This website is deployed using Lovable.
 
-**Use GitHub Codespaces**
+To deploy:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Open the project in Lovable
 
-## What technologies are used for this project?
+Click Share → Publish
 
-This project is built with:
+🎯 How This Website Helps Users
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Reduces missed medications
 
-## How can I deploy this project?
+Encourages healthier habits
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Provides reliable AI-based guidance
 
-## Can I connect a custom domain to my Lovable project?
+Centralizes health information
 
-Yes, you can!
+Improves long-term health awareness
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🔮 Future Scope
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Smartwatch data integration
+
+Mobile app with native health data
+
+Real-time step & calorie tracking
+
+Advanced AI health predictions
+
+📞 Support
+
+If you have any issues or suggestions, feel free to raise them via the repository or contact the project owner.
+
+If you want next:
+
+✅ Mobile App README
+
+✅ Play Store description
+
+✅ Project presentation flow
+
+✅ Architecture diagram explanation
+
+Just tell me 👍
